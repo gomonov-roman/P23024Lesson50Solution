@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://i.postimg.cc/9fqYVvxh/logo.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <aside class="sidebar " data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="https://i.pinimg.com/originals/6d/9b/d1/6d9bd1f84e0497f4f7cfa244f7883ff8.png"width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Richard Hanrick">Bentpixels</h1>
+                    <p class="title">Web Developers</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:gomonov1987@mail.ru" class="contact-link">gomonov1987@mail.ru</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+37529647717" class="contact-link">+375 29-647-70-17</a>
+                            <a href="tel:+375259028568" class="contact-link">+375 25-902-85-68</a>
+                   
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="2025-03-15">march, 15 2025</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Belarus, borovlyan 108</address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://www.instagram.com/bentpixels_n/" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About us</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>We are experts in our business if you need a website for your advertising: cafe, personal business, and so on we will help you with it. You won't find better prices and quality than us, please take a look at all our works and write to us in direct mail. 
+We will be waiting for you with respect Bentpixels</p>
+                </section>
+
+                <section class="service">
+                    <h3 class="h3 service-title">What We doing</h3>
+
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/4389jZkP/icon-design.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web Design</h4>
+                                <p class="service-item-text">The most modern and high-quality design made at a professional level.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/ZqgqrqzG/icon-dev.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web development</h4>
+                                <p class="service-item-text">High-quality development of sites at the professional level.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/xjLdzYxZ/icon-app.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Mobile apps</h4>
+                                <p class="service-item-text">Professional development of applications for iOS and Android.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/0NL8zHpx/icon-photo.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Java</h4>
+                                <p class="service-item-text">We know java almost perfectly 
+We've been dealing with it for over 3 years</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="testimonials">
+                    <h3 class="h3 testimonials-title">Testimonials</h3>
+
+                    <ul class="testimonials-list has-scrollbar">
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="https://i.pinimg.com/originals/b5/f2/d5/b5f2d5c6e822bda337c8c7a7c545ee6d.png" alt="avatar" data-testimonials-avatar width="60">
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Roman</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>Roman I am one of the creators of Bentpixels grid
+My experience in html and css more than 5 years 
+I also know programming languages like c# and Java write in direct and see how you create a legacy</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="https://i.pinimg.com/originals/e3/21/b1/e321b1d722439668f8edc1ef572708b2.png" alt="avatar" data-testimonials-avatar width="50">
+                                </figure>
+                              
+                              
+                              
+                              
+                              
+                              
+                              
+                              
+                              
+                              
+                              
+                              
+                              
+                               <h4 class="h4 testimonials-item-title" data-testimonials-title>Michael</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>Michael has been studying programming for over 5 years. Master of HTML and CSS. Graduate of an elite IT-school possess such languages as Java Python on all questions write in a private box</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="https://i.pinimg.com/originals/8b/fd/30/8bfd30ead360adedf17deded36cbb64c.png" alt="avatar" data-testimonials-avatar width="70">
+                                </figure>
+                              
+                              
+                              
+                              
+                              
+                              
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>John</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>John
+Master of JS and HTML, graduated from the Higher School of Programming, I have been developing websites for about four years</p>
+                                </div>
+                            </div>
+                        </li>
+
+                       
+
+                               
+                </section>
+
+                <div class="modal-container " data-modal-container>
+                    <div class="overlay " data-overlay></div>
+
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="Daniel Lewis" width="80" data-modal-img>
+                            </figure>
+
+                            <img src="https://i.pinimg.com/originals/f3/df/3f/f3df3f984f518c58c0c338b828c52fef.png" alt="quote icon">
+                        </div>
+
+                        <div class="modal-content">
+                            <h4 class="h3 modal-title" data-modal-title>Daniel Lewis</h4>
+                            <time datetime="2023-06-14">14 June, 2023</time>
+
+                            <div class="modal-text" data-modal-text>
+                                <p>Richard was hired to create a corporate identity. It's modern, clean and with a beautiful design that got a lot of praises from colleagues and visitors. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of client.</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <section class="clients">
+                    <h3 class="h3 clients-title">Clients</h3>
+               
+                  
+                  
+                
+                     
+                    <ul class="clients-list has-scrollbar">
+                       <li class="clients-item">
+                            <a href=""><img src="https://i.pinimg.com/originals/40/c2/fc/40c2fc64049b7fabe39f688fb604f082.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.pinimg.com/originals/e6/09/de/e609de1dda2c80d2f85332c888e70dff.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.pinimg.com/originals/b9/b1/8b/b9b18bc4b879271dac31fbf6b25a5c7b.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.pinimg.com/originals/bb/bd/66/bbbd6692b6df6874714b7d9e51bef2d5.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.pinimg.com/originals/df/a3/b0/dfa3b05c34e299926d51cb17735716ff.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.pinimg.com/originals/35/5b/42/355b42d4e2dfe01263e9e8d2d43ac8bd.png" alt="logo"></a>
+                        </li>
+                    </ul>
+                </section>
+
+            </article>
+            
+            <article class="resume " data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">University school of the IT Step</h4>
+                            <span>2020 - 2025</span>
+                            <p class="timeline-text">We studied at IT Step university for 8 years. We learnt programming languages like java, python, c#, c++ we decided to help people make their dreams come true.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">New York Academy of Art</h4>
+                            <span>2023 - 2024</span>
+                            <p class="timeline-text">We have taken programming courses such as fruct code, Skillbox, Skypro, etc.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title"></h4>
+                            <span>2020 - 2021</span>
+                            <p class="timeline-text">We have created over 150 websites for clients who still use our services we have created crypto coins such as Just, Threshold</p>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Experience</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Creative director</h4>
+                            <span>2022 - Present</span>
+                            <p class="timeline-text">I can develop and oversee creative concepts for projects and campaigns managing a team of designers, writers, and other creative professionals.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Art director</h4>
+                            <span>2020 - 2025</span>
+                            <p class="timeline-text">I create and develop visual concepts that align with the project's goals and objectives, supervising the design process and managing timelines and budgets for design projects.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Web designer</h4>
+                            <span>2023</span>
+                            <p class="timeline-text">We won with our team a very prestigious competition on creating websites in the IT Academy Step in which 50 teams from all over Minsk participated.</p>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="skill">
+                    <h3 class="h3 skills-title">Our Skills</h3>
+
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Web Design</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Graphic Design</h5>
+                                <data value="70">70%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 70%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">HTML</h5>
+                                <data value="95">95%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 95%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Java</h5>
+                                <data value="85">85%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 85%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="portfolio " data-page="portfolio">
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+                        <li class="filter-item"><button data-filter-btn>Web Design</button></li>
+                        <li class="filter-item"><button data-filter-btn>Applications</button></li>
+                        <li class="filter-item"><button data-filter-btn>Web Development</button></li>
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select " data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item"><button data-select-item>All</button></li>
+                            <li class="select-item"><button data-select-item>Web Design</button></li>
+                            <li class="select-item"><button data-select-item>Applications</button></li>
+                            <li class="select-item"><button data-select-item>Web Development</button></li>
+                        </ul>
+                    </div>
+
+                    <ul class="project-list">
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="https://cdpn.io/cpe/boomboom/index.html?key=index.html-e77a2200-147a-c365-7ea8-fbdcef61099f#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.pinimg.com/736x/b7/dd/30/b7dd30adf1b4887142731ce400be78dd.jpg" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Work 1</h3>
+                                <p class="project-category">Web development</p>
+                            </a>
+                        </li>
+                      
+                      <li class="project-item active" data-filter-item data-category="applications">
+                            <a href="https://cdpn.io/cpe/boomboom/index.html?key=index.html-e9ea8e96-0cb0-5083-4710-99a37bfdef6a#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.pinimg.com/736x/ff/f9/fe/fff9fe708c04f89e10d774767f7338fa.jpg" alt="arrival" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Work 2</h3>
+                                <p class="project-category">Applications</p>
+                            </a>
+                        </li>
+                      
+                      
+                      
+
+                        
+
+
+                        
+
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="https://codepen.io/bkrsgbku-the-reactor/pen/zxYjBxx">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.pinimg.com/736x/6a/9f/dc/6a9fdc882a9b1e810b932085f6cc18a7.jpg" alt="arrival" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Work 3</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="blog " data-page="blog">
+                <header>
+                   
+
+                        
+                                
+                        
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        
+                                    </div>
+
+                                   
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="contact " data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                      
+                      
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2344.951813482146!2d27.674664676598482!3d54.003630872487214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbc85c8d5242af%3A0xe54f8a97b395c4ff!2sUlitsa%20Berozovaya%20Roshcha%20108%2C%20Bara%C5%ADliany%2C%20Minsk%20Region%20223053!5e0!3m2!1sen!2sby!4v1742412805303!5m2!1sen!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </figure>
+                </section>
+              
+              
+               <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span><a href="https://t.me/Zverovich77" target="#">Send Message</a></span>
+                            
+                        </button>
+                      <style>
+                        a {
+                          color: gold;
+                        }
+              </style>
+               
+
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span><a href="https://t.me/RomanRich1" target="#">Send Message</a></span>
+                            
+                        </button>
+                    </form>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
